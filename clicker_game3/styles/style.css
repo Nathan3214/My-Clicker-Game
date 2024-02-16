@@ -1,0 +1,114 @@
+html,
+body {
+  background-color: #ab0eff;
+  margin: 10px;
+    padding: 10;
+}
+.button {
+    border: 2px solid black;
+    background: rgb(143, 51, 14);
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+  }
+  .clickme {
+    border-style: double;
+   font-weight: bold;
+   border-width: thick;
+   background-color: rgb(19, 57, 163) ;
+   border-color: #28aa11;
+  color: rgb(67, 200, 46);
+  }
+  
+  .clickme:hover {
+    background-color: #04AA6D;
+    color: rgb(255, 255, 255);
+  }
+
+  .cursor {
+   border-style: dashed;
+    border-width: thick;
+    background-color: rgb(180, 197, 190) ;
+     border-color: #070002;
+   color: rgb(29, 57, 211);
+   }
+   
+   .cursor:hover {
+    background-color: #00ff5d;
+    color: rgb(255, 255, 255);
+  }
+   
+  .energy {
+    border-style: groove;
+    border-width: thick;
+    font-weight: bold;
+    background-color: rgb(9, 252, 159) ;
+     border-color: #fd06d8;
+   color: rgb(242, 0, 255);
+   }
+   
+   .energy:hover {
+    background-color: #d018b2;
+    color: rgb(255, 255, 255);
+  }
+
+   .EggSandwich {
+    border-style: groove;
+    border-width: thick;
+    background-color: rgb(217, 255, 2) ;
+     border-color: #0045f5;
+   color: rgb(196, 161, 25);
+   }
+
+   .EggSandwich:hover {
+    background-color: #f2eeec;
+    color: rgb(188, 232, 8);
+  }
+
+   .MegaEnergy {
+    border-style: double;
+    border-width: thick;
+    font-weight: bolder;
+    background-color: rgb(28, 181, 51) ;
+     border-color: #0eff26;
+   color: rgb(4, 255, 196);
+   }
+
+   .MegaEnergy:hover {
+    background-color: #09e6ff;
+    color: rgb(255, 255, 255);
+  }
+
+   .score {
+    background-color:  #ab0eff;
+     border-color: #4400ff;
+   color: rgb(255, 47, 5);
+   font-family: cursive;
+   }
+   .Score {
+    background-color: #ab0eff;
+   color: rgb(30, 249, 1);
+   font-family: cursive;
+   }
+   
+   .CocaCola:hover {
+    background-color: #fd0303;
+    color: rgb(255, 255, 255);
+  }
+   
+   .CocaCola {
+    border-style: groove;
+    border-width: thick;
+    font-weight: bolder;
+    background-color: rgb(162, 101, 26) ;
+     border-color: #e80404;
+   color: rgb(248, 16, 124);
+   }
+   body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="/styles/style.css" />
+        <meta charset="utf-8" />
+    </head>
+    <script src="/scripts/building.js"></script>
+    <script src="/scripts/script.js"></script>
+    <body>
+        <main>
+            <h1 id= "Score"h1 class="Score">Score:</h1>
+            <h2 id="score"h2 class="score">0</h2>
+            <button class="button clickme" onclick="scorePlusPlus()">Click Me!</button>
+            <br />
+            
+               <button class ="button cursor"
+                id="buySingleCursor"
+                onclick="cursor.purchase()"
+                border: none;
+
+            >
+                Buy Cursor
+            </button>
+
+            
+                <button class="button energy"
+                id="buyEnergyDrink"
+                onclick="energyDrink.purchase()"
+            >
+                Buy Energy Drink
+            </button>
+
+            <button class="button EggSandwich" id="buyEggSandwich" onclick="eggSandwich.purchase()">
+                Buy Egg Sandwich
+            </button>
+
+            <button class="button MegaEnergy" id="buyMegaEnergy" onclick="megaEnergy.purchase()">
+                Buy Mega Energy
+            </button>
+            
+            <button class="button CocaCola" id="buyCocaCola" onclick="cocaCola.purchase()">
+                Buy Coca Cola
+        </main>
+    </body>
+</html>
